@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0;
+    background-image: url('bg23.jpeg');
+    background-size: cover;
+    padding: 0;
+    background-color: aquamarine;
+}
+
+.navbar{
+    background-color: black;
+    color: rgb(2, 17, 5);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.playerTurn{
+    background-color: #9BE8D8;
+    height: 40px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.containerOfMainGame{
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
+    position: relative;
+    right: 12rem;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    font-size: 100px;
+}
+
+.box:hover{
+    background-color: #F8FDCF;
+}
+
+.bdrt{
+    border-top: 0;
+}
+
+.bdrl{
+    border-left: 0;
+}
+
+.bdrr{
+    border-right: 0;
+}
+
+.bdrb{
+    border-bottom: 0;
+}
+
+.gameinfo{
+    position: relative;
+    left: 40px;
+}
+
+.line{
+    background-color: black;
+    color: ;
+    color: red;
+    height: 3px;
+    width: 0;
+    position: absolute;
+    background-color: #911d91;
+    transition: width 1s ease-in-out;
+}
+
+.reset{
+    width: 150px;
+    height: 80px;
+    font-size: 50px;
+    border-radius: 30px;
+    background-color: #7C9D96;
+    border: 4px solid rgb(26, 13, 50);
+    cursor: pointer;
+}
+
+.rules{
+    padding-top: 50px;
+    height: 300px;
+    width: 300px;
+}
+
+.image img{
+    padding-top: 10px;
+    width: 0;
+}
